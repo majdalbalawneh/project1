@@ -1,68 +1,863 @@
-.back{
-    background-image:url('./imge/head.img.png ');
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-}
-  
-  
-  .img{
-      margin-top: -160px;
-      margin-left: 50%;
-  }
-  .name{
-      margin-top: -8px;
-      margin-left: 48%;
-      padding-top: 20px;
-  
-  }
-  .job{
-      margin-top: -8px;
-      margin-left: 47%;
-    
-     
-  }
-  #education{
-      margin: 50%;
-      text-align: center;
-      font-size: 3vh;
-     position: relative;
-     max-width: 800px;
-     margin-top: -1%;
-  }
-  #education:before
-  { content: "";
-      display: block;
-      width: 530px;
-      margin-left: 200px;
-      height: 2px;
-      background-color: #000;
-      position: absolute;
-      left:0%;
-      top: 50%;
-      z-index: -2;
-      
-   
-  }
 
-  #education:after
-  { content: "";
-      display: block;
-      width: 530px;
-      height: 2px;
-      background-color: #000;
-      position: absolute;
-      right:0%;
-      top: 50%;
-      z-index: -2;
-      margin-right: 100px;
+        .back {
+            background-image: url('./imge/head.img.png ');
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+        }
+
+
+        .img {
+            margin-top: -160px;
+            margin-left: 50%;
+        }
+
+        .name {
+            margin-top: -8px;
+            margin-left: 48%;
+            padding-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .job {
+            margin-top: -8px;
+            margin-left: 47%;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+     
+.header{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+        #education {
+            margin: 50%;
+            text-align: center;
+            font-size: 3vh;
+            position: relative;
+            max-width: 800px;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        #education:before {
+            content: "";
+            display: block;
+            width: 530px;
+            margin-left: 200px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            z-index: -2;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #education:after {
+            content: "";
+            display: block;
+            width: 530px;
+            height: 2px;
+            background-color:#A45D5D ;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .edu1 {
+        
+            font-size: 20px;
+            margin-top: -49%;
+            margin-left: 15%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+
+        .edu2 {
+            border-radius: 40px;
+            
+            font-size:20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -100px;
+            margin-left: 55%;
+            font-size: 20px;
+
+        }
+
+        #project {
+            margin: 50%;
+            text-align: center;
+            font-size: 3vh;
+            position: relative;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+
+        }
+
+        #project:before {
+            content: "";
+            display: block;
+            width: 550px;
+            margin-left: 200px;
+            height: 2px;
+            background-color:#A45D5D;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            z-index: -2;
+            
+
+
+        }
+
+        #project:after {
+            content: "";
+            display: block;
+            width: 550px;
+            height: 2px;
+            background-color:#A45D5D ;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 100px;
+            
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-auto-rows: 20% 20% 20% 20%;
+            grid-gap: 100px;
+            margin-right: 20%;
+            margin-top: -45%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+
+        #experiences{
+
+            margin:  0 50%;
+            text-align: center;
+            font-size: 30px;
+            position: relative;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        #experiences:before {
+            content: "";
+            display: block;
+            width: 530px;
+            margin-left: 200px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            left: 20%;
+            top: 50%;
+
+        }
+
+        #experiences:after {
+            content: "";
+            display: block;
+            width: 530px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            right: 20%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 90px;
+
+        }
+      .ul{
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 120px;
+          margin-right: 120px;
+      }
+        
+        .footer{
+            border-radius: 40px;
+           background-color:#A45D5D;
+            display: grid;
+            grid-template-columns: 20% 20%  20%  ;
+            grid-auto-rows: 20% 20% 20% ;
+            font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+           gap: 15%;
+          
+           
+        }
+        .contact{
+            margin-left: 200px;
+        }
+        
+            
+        /* @media screen and (min-width: 1421px) and (max-width:2560px) {
+           
+            
     
-  }
-  
-  .edu1{
-      font-size: larger;
-      margin-top: -45%;
-      margin-left: 15%;
-  }
+            .name {
+                margin-top: -8px;
+                margin-left: 48%;
+                padding-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 3vh;
+            }
+    
+            .job {
+                margin-top: -8px;
+                margin-left: 47%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 3vh;
+               
+            }
+            .header{
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            #education {
+                margin: 50%;
+                text-align: center;
+                font-size: 4vh;
+                position: relative;
+                max-width: 1000px;
+                margin-top: -1%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+            }
+    
+            #education:before {
+                content: "";
+                display: block;
+                width: 830px;
+                margin-left: 200px;
+                height: 2px;
+                background-color: #A45D5D;
+                position: absolute;
+                left: 0%;
+                top: 50%;
+                z-index: -2;
+                font-family: Arial, Helvetica, sans-serif;
+    
+            }
+    
+            #education:after {
+                content: "";
+                display: block;
+                width: 830px;
+                height: 2px;
+                background-color:#A45D5D ;
+                position: absolute;
+                right: 0%;
+                top: 50%;
+                z-index: -2;
+                margin-right: 100px;
+                font-family: Arial, Helvetica, sans-serif;
+    
+            }
+    
+            .edu1 {
+            
+                font-size: 30px;
+                margin-top: -49%;
+                margin-left: 15%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+    
+            }
+    
+            .edu2 {
+            
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: -100px;
+                margin-left: 55%;
+                font-size: 30px;
+    
+            }
+            #project {
+                margin: 50%;
+                text-align: center;
+                position: relative;
+                margin-top: -1%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+    
+            }
+    
+            #project:before {
+                content: "";
+                display: block;
+                width: 850px;
+                margin-left: 200px;
+                height: 2px;
+                background-color:#A45D5D;
+                position: absolute;
+                left: 0%;
+                top: 50%;
+                z-index: -2;
+                
+    
+    
+            }
+    
+            #project:after {
+                content: "";
+                display: block;
+                width: 850px;
+                height: 2px;
+                background-color:#A45D5D ;
+                position: absolute;
+                right: 0%;
+                top: 50%;
+                z-index: -2;
+                margin-right: 100px;
+                
+    
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 20% 20%  20% 20%;
+                grid-auto-rows: 20% 20% 20% 20%;
+                grid-gap: 200px;
+                margin-right: 40%;
+                margin-top: -45%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+    
+            }
+            #experiences{
+
+                margin:  0 50%;
+                text-align: center;
+                font-size: 2.30vh;
+                position: relative;
+                margin-top: -1%;
+                font-family: Arial, Helvetica, sans-serif;
+               
+            }
+            #experiences:before {
+                content: "";
+                display: block;
+                width: 830px;
+                margin-left: 200px;
+                height: 2px;
+                background-color: #A45D5D;
+                position: absolute;
+                left: 20%;
+                top: 50%;
+    
+            }
+    
+            #experiences:after {
+                content: "";
+                display: block;
+                width: 830px;
+                height: 2px;
+                background-color: #A45D5D;
+                position: absolute;
+                right: 20%;
+                top: 50%;
+                z-index: -2;
+                margin-right: 90px;
+    
+            }
+            .ul{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 120px;
+                margin-right: 120px;
+            }
+            .footer{
+                border-radius: 40px;
+               background-color:#A45D5D;
+                display: grid;
+                grid-template-columns: 20% 20%  20% ;
+                grid-auto-rows: 20% 20% 20% ;
+                font-family: Arial, Helvetica, sans-serif;
+        
+                font-size: 40px;
+        }
+    } */
+    /* @media screen and (min-width: 1421px) and (max-width:2697px) {
+
+        
+        .name {
+            margin-top: -8px;
+            margin-left: 48%;
+            padding-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3vh;
+        }
+
+        .job {
+            margin-top: -8px;
+            margin-left: 47%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3vh;
+           
+        }
+        .header{
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #education {
+            margin: 50%;
+            text-align: center;
+            font-size: 4vh;
+            position: relative;
+            max-width: 1000px;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+
+        #education:before {
+            content: "";
+            display: block;
+            width: 830px;
+            margin-left: 200px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            z-index: -2;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #education:after {
+            content: "";
+            display: block;
+            width: 830px;
+            height: 2px;
+            background-color:#A45D5D ;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .edu1 {
+        
+            font-size: 30px;
+            margin-top: -49%;
+            margin-left: 15%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+
+        }
+
+        .edu2 {
+        
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -100px;
+            margin-left: 55%;
+            font-size: 30px;
+
+        }
+        #project {
+            margin: 50%;
+            text-align: center;
+            position: relative;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+
+        }
+
+        #project:before {
+            content: "";
+            display: block;
+            width: 850px;
+            margin-left: 200px;
+            height: 2px;
+            background-color:#A45D5D;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            z-index: -2;
+            
+
+
+        }
+
+        #project:after {
+            content: "";
+            display: block;
+            width: 850px;
+            height: 2px;
+            background-color:#A45D5D ;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 100px;
+            
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-auto-rows: 20% 20% 20% 20%;
+            grid-gap: 200px;
+            margin-right: 40%;
+            margin-top: -45%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+
+        }
+        #experiences{
+
+            margin:  0 50%;
+            text-align: center;
+            font-size: 2.30vh;
+            position: relative;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        #experiences:before {
+            content: "";
+            display: block;
+            width: 830px;
+            margin-left: 200px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            left: 20%;
+            top: 50%;
+
+        }
+
+        #experiences:after {
+            content: "";
+            display: block;
+            width: 830px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            right: 20%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 90px;
+
+        }
+        .ul{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+        .footer{
+            border-radius: 40px;
+           background-color:#A45D5D;
+            display: grid;
+            grid-template-columns: 20% 20%  20% ;
+            grid-auto-rows: 20% 20% 20% ;
+            font-family: Arial, Helvetica, sans-serif;
+    
+            font-size: 40px;
+    }
+    } */
+    /* @media screen and (min-width: 1421px) and (max-width:1440px){
+        .footer{
+            border-radius: 40px;
+           background-color:#dda9a9;
+            display: grid;
+            grid-template-columns: 20% 20%  20% ;
+            grid-auto-rows: 20% 20% 20% ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            width: 200vh;
+           
+    }} */
+    
+        /*  Nest Hup Max1280 */
+    @media screen and (min-width: 1280px) and (max-width:1350px){
+        .back {
+            background-image: url('./imge/head.img.png ');
+            background-size: cover;
+            width: 130%;
+            height: 400px;
+        }
+        
+    .container{
+        display: grid;
+        grid-template-columns: 20% 20%  20% 20%;
+        grid-auto-rows: 20% 20% 20% 20%;
+        grid-gap: 100px;
+        margin-left: 5%;
+        margin-top: -45%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;}
+        
+        .footer{
+            border-radius: 40px;
+           background-color:#A45D5D;
+            display: grid;
+            grid-template-columns: 20% 20%  20%  ;
+            grid-auto-rows: 20% 20% 20% ;
+            font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+           gap: 15%;
+           width: 116%;
+    }
+}
+/* nest hup 1024 */
+
+@media screen and (min-width: 1024px) and (max-width:1050px){
+    .back {
+        background-image: url('./imge/head.img.png ');
+        background-size: cover;
+        width: 130%;
+        height: 400px;}
+
+        #education {
+            margin: 50%;
+            text-align: center;
+            font-size: 3vh;
+            position: relative;
+            max-width: 800px;
+            margin-top: -1%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        #education:before {
+            content: "";
+            display: block;
+            width: 330px;
+            margin-left: 200px;
+            height: 2px;
+            background-color: #A45D5D;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            z-index: -2;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #education:after {
+            content: "";
+            display: block;
+            width: 330px;
+            height: 2px;
+            background-color:#A45D5D ;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            z-index: -2;
+            margin-right: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .edu1 {
+        
+            font-size: 20px;
+            margin-top: -49%;
+            margin-left: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 20% 20%  20% 20%;
+            grid-auto-rows: 20% 20% 20% 20%;
+            grid-gap: 50px;
+            margin-top: -45%;
+            font-size: 20px;
+        }
+        .footer{
+            border-radius: 40px;
+           background-color:#A45D5D;
+            display: grid;
+            grid-template-columns: 20% 20%  20%  ;
+            grid-auto-rows: 20% 20% 20% ;
+            font-family: Arial, Helvetica, sans-serif;
+           font-size: 20px;
+           gap: 9%;
+           width: 100%;}
+           
+.contact{
+    margin-left: 50px;
+}
+}
+
+         /* Samsung A5 */
+
+@media screen and (min-width: 412px) and (max-width:450px){
+    
+    .back {
+        background-image: url('./imge/head.img.png ');
+        background-size: cover;
+        width: 250%;
+        height: 250px;
+    }
+    .img {
+        margin-top: -160px;
+        margin-left: 100%;
+    }
+
+    .name {
+        margin-top: -8px;
+        margin-left: 100%;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .job {
+        margin-top: -8px;
+        margin-left: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .header{
+        font-size: 30px;
+       margin-left: 200px;
+    }
+
+
+    #education:before {
+        content: "";
+        display: block;
+        width: 430px;
+        margin-left: 200px;
+        height: 2px;
+        background-color: #A45D5D;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        z-index: -2;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #education:after {
+        content: "";
+        display: block;
+        width: 430px;
+        height: 2px;
+        background-color:#A45D5D ;
+        position: absolute;
+        right: 0%;
+        top: 50%;
+        z-index: -2;
+        /* margin-right: 200px; */
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .edu1 {
+   
+        font-size: 20px;
+        margin-top: -49%;
+        margin-left: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+    }
+    
+    .edu2 {
+      
+        
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -150px;
+        margin-left: 90%;
      
   
+        font-size: 20px;
+    
+
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 20% 20%  20% 20%;
+        grid-auto-rows: 20% 20% 20% 20%;
+        grid-gap: 100px;
+        margin-right: 40%;
+        margin-left: 50px;
+        margin-top: -45%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+    }
+    .ul{
+        padding: 20px ;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .footer{
+        
+       gap: 15%;
+       width: 250%;}
+       .contact{
+        margin-left: 15px;}
+       
+}
+
+        /* GALAXY FOLD */
+
+@media screen and (min-width: 280px) and (max-width:300px){
+    .back{
+        background-image: url('./imge/head.img.png ');
+        background-size: cover;
+        width: 350%;
+        height: 250px;
+    }
+    .img {
+        margin-top: -160px;
+        margin-left: 130%;
+    }
+    .name {
+        margin-top: -8px;
+        margin-left: 130%;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+       
+    }
+    .job {
+        margin-top: -8px;
+        margin-left: 130%;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    } .header{
+        font-size: 30px;
+  
+    
+    }
+    .footer{
+        
+        gap: 15%;
+        width: 300%;}
+        .contact{
+         margin-left: 15px;}
+        
+ }
+
+}
