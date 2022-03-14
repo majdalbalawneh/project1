@@ -593,7 +593,7 @@
     }} */
     
         /*  Nest Hup Max1280 */
-    @media screen and (min-width: 1280px) and (max-width:1350px){
+    /* @media screen and (max-width: 1280px) and (max-width:1350px){
         .back {
             background-image: url('./imge/head.img.png ');
             background-size: cover;
@@ -624,6 +624,7 @@
     }
 }
 /* nest hup 1024 */
+
 
 @media screen and (min-width: 1024px) and (max-width:1050px){
     .back {
@@ -848,16 +849,50 @@
        
     } .header{
         font-size: 30px;
-  
+  margin-left: 50% ;
+ 
     
     }
-    .footer{
+    .edu1 {
+   
+        font-size: 20px;
+        margin-top: -30%;
+        margin-left: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+    }
+    
+    .edu2 {
+      
         
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -105%;
+        margin-left: 150%;
+     
+  
+        font-size: 20px;
+    
+
+    }
+    .container{
+        margin-left: 30%;
+    }
+    .footer{
+        margin-right: 2%;
         gap: 15%;
-        width: 300%;}
+        width: 350%;}
+
         .contact{
          margin-left: 15px;}
-        
- }
 
+         .ul{
+            padding: 0px ;
+            margin-left: 90px;
+            margin-right: 0px;
+        }
+ 
+
+ }
 }
